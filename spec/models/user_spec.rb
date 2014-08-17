@@ -6,5 +6,4 @@ describe User do
   subject { @user }
 
   it { should respond_to(:name) }
-  
 end
