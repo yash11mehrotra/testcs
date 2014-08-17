@@ -2,7 +2,7 @@ require 'spec_helper'
 
 describe User do
 
-  before { @user = User.new(name: "Example User" }
+  before { @user = User.new(name: "Example User") }
 
   subject { @user }
 
